@@ -174,7 +174,7 @@ public class Qes1_13 {
 	    //ただしif文は使わないこと
 		age=24;
 		System.out.println(age>25);
-	
+	 
 	
 	
 	
