@@ -12,7 +12,7 @@ public class Qes5 {
 		for (int out = 1; out <= 9; out++) { 
 			// 内側のfor文
 			for (int in = 1; in <= 20; in++) { 
-				// outとinの値をフォーマットして表示
+				// outとinの値をフォーマットして表示させる
 				System.out.printf(" %s * %s = %s ||", formatNumber(out), formatNumber(in), formatNumber(out * in));
 			}
 
