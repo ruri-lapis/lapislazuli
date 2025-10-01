@@ -126,11 +126,9 @@ public class Curriculum_New_1_18 {
                 System.out.println(number);
             }
 //            Q6
-//            System.out.println("--- Q6: 平均値の計算と出力 ---");
             double averageValue = calculateAndPrintAverage(result);
             
 //     		Q7
-//            System.out.println("--- Q7: 平均値の50以上判定と出力 ---");
             // ※この例では返り値を受け取っていますが、要件の「返しコンソールに出力」はQ7メソッド内で完結しています。
             boolean checkResult = checkAverageOver50(averageValue);
             
