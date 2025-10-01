@@ -31,9 +31,6 @@ public class Qes1_3 {
 			// ユーザー名登録のメッセージの後に改行
 			System.out.println("ユーザー名「 " + userName + "」を登録しました ");
 
-			// Scannerオブジェクトを作成し、標準入力を読み取る
-			Scanner scanner2 = new Scanner(System.in);
-
 			// Randomオブジェクトを作成し、ランダムな手を生成する
 			Random random = new Random();
 
@@ -53,7 +50,7 @@ public class Qes1_3 {
 
 				// ユーザーに手を入力してもらう
 				System.out.print("じゃんけんの手を入力してください（グー: 0, チョキ: 1, パー: 2）: ");
-				int userChoice = scanner2.nextInt();
+				int userChoice = scanner.nextInt();
 
 				// コンピューターの手をランダムに選ぶ
 				int computerChoice = random.nextInt(3); // 0から2のランダムな整数を生成
