@@ -57,7 +57,7 @@ public class Prefecture {
 	}
 
 	// 都道府県データの中の県庁所在地を答える機能
-	public String getcity() {
+	public String getCity() {
 		// city箱に入っている情報をこのメソッドを呼び出した場所に返す
 		return this.city;
 	}
@@ -72,7 +72,7 @@ public class Prefecture {
 	public void displayInfo() {
 		//		表示する形式を指定する
 		System.out.println("都道府県名：" + this.getName());
-		System.out.println("県庁所在地：" + this.getcity() + "市");
+		System.out.println("県庁所在地：" + this.getCity());
 		System.out.println("面積：" + this.getArea() + "㎢");
 	}
 
