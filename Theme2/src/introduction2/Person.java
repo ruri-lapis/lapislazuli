@@ -20,7 +20,7 @@ public class Person {
 		this.weight = weight;
 
 		// 人が増えるたびに人数を数える
-		// ※クラス全体で管理しているcountを1増やすともいう
+		// クラス全体で管理しているcountを1増やすともいう
 		Person.count++;
 	}
 

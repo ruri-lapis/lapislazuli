@@ -10,7 +10,7 @@ public class Main {
 		Person person2 = new Person("山田花子", 22, 1.5, 40);
 		person2.print();
 
-		// 合計人数を数える
+		// Personの合計人数を数える
 		// 問題６の解答部分
 		Person.printCount();
 		// System.out.printlnを使って合計人数を出力する
